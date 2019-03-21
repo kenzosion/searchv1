@@ -4,8 +4,10 @@ export default class SearchBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <div>Search bar</div>
+        <form>
+            <input type="text"/>
+        </form>
       </React.Fragment>
-    )
+    );
   }
 }
