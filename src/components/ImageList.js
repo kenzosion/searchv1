@@ -12,7 +12,7 @@ const ImageList = (props) => {
                 <div className="image">
                   <img src={urls.regular} alt={description} />
                 </div>
-                <div className="content">
+                <div className="content" style= {{textAlign: 'center', textTransform: 'capitalize'}}>
                   <h5 className="header">{description}</h5>
                 </div>
               </div>
