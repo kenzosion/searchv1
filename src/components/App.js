@@ -19,7 +19,7 @@ import ImageList from './ImageList';
 
   render() {
   return (
-    <div className="ui container" style={{marginTop: '10px'}}>
+    <div className="ui container" style={{marginTop: '20px'}}>
       <SearchBar onSubmit={this.onSearchSubmit}/>
       <ImageList images={this.state.images}/>
     </div>

@@ -17,7 +17,7 @@ export default class SearchBar extends Component {
         <div className="ui segment">
             <form className="ui form" onSubmit={this.onFormSubmit}>
                 <div className="field">
-                    <label><h2>Search</h2></label>
+                    <label><h2>Image Search</h2></label>
                     <input type="text" value={this.state.term} onChange={e => this.setState({term: e.target.value.toLowerCase()})}/>
                 </div>
             </form>
