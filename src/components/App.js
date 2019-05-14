@@ -20,8 +20,8 @@ import './App.css';
 
   render() {
   return (
-    <div className="ui container containerColor" style={{marginTop: '20px'}}>
-      <SearchBar onSubmit={this.onSearchSubmit}/>
+    <div className="ui container" style={{marginTop: '20px'}}>
+      <SearchBar onSubmit={this.onSearchSubmit} className="containerColor"/>
       <ImageList images={this.state.images}/>
     </div>
   )
