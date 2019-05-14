@@ -19,10 +19,12 @@ import ImageList from './ImageList';
 
   render() {
   return (
+   <React.Fragment style{{background: '#0f0c29', background: 'linear-gradient(to right, #0f0c29, #302b63, #24243e)'}}>
     <div className="ui container" style={{marginTop: '20px'}}>
       <SearchBar onSubmit={this.onSearchSubmit}/>
       <ImageList images={this.state.images}/>
     </div>
+   </React.Fragment>
   )
 }
 }
