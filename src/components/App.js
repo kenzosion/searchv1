@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import SearchBar from './SearchBar';
 import Unsplash from '../api/Unsplash';
 import ImageList from './ImageList';
-import AppCSS from './App.css';
+import './App.css';
 
 
  class App extends Component {
